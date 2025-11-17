@@ -1,0 +1,54 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / Dist
+build/
+dist/
+*.egg-info/
+
+# FAISS vector store directory
+faiss_db/
+
+
+chroma_db/
+index/
+
+# Raw PDF uploads
+raw/
+*.pdf
+
+*.npy
+*.npz
+
+# Environment variables
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
