@@ -1,6 +1,11 @@
 from rag.vector_store import load_vectorstore
+from langchain.tools import tool
 
+
+@tool
 def rag_tool_fn(query: str) -> str:
+    """Search the internal vector store using RAG and return relevant text snippets."""
+
     db = load_vectorstore()
     if db is None:
         return "No vector index available. Please ingest documents first."
